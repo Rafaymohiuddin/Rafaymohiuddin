@@ -1,0 +1,96 @@
+@font-face {
+    font-family: roboto;
+    src: url(./imgs/Roboto/Roboto-Medium.ttf);
+}
+:root{
+    --primary-color:rgba(255, 192, 203, 0.603) ;
+    --sec-color: blue;
+}
+.logo img{
+    width: 150px;
+
+}
+.header{
+    padding: 20px;
+    background-color: #fff !important;
+ 
+}
+.li{
+    align-items: center !important;
+}
+.main{
+    display: flex;
+    justify-content: center;
+
+
+}
+.sub{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);
+}
+.link ul li{
+   
+}
+.right a{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+}
+.right input{
+    padding: 20px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: var(--primary-color);
+}
+.right span{
+    color: #fff;
+}
+.qui-link li{
+    list-style-type: none;
+    padding: 10px;
+    color: grey;
+}
+.qui-link {
+    margin: auto;
+   
+}
+.qui-link h1{
+    font-weight:800;
+}
+.qui-link a{ 
+    text-decoration: none;
+    color: gray;
+
+}
+.text{
+    display: flex; 
+    padding: 10px;
+}
+.text img{
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+.text p{
+    color: gray;
+}
+.card p{
+    color: gray;
+    font-weight: 900;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+
+}
+.child{
+    margin-bottom: 10px;
+    width: 30%;
+    padding: 20px;
+    margin: auto;
+    
+}
